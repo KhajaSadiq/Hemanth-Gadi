@@ -1,0 +1,17 @@
+.pageheader{
+			position: fixed top;
+			top: 0px;
+			clear: both;
+			background-color: black;
+			color: white;
+			padding: 20px;
+			}
+.pagefooter{
+			clear: both;
+			background-color: black;
+			color: white;
+			padding: 20px;
+			}
+.sidebar{
+		float: left;
+	}

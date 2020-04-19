@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+
+<link rel="stylesheet" href="styles.css">
+<style>
+	body{
+		
+	}
+	nav {
+    padding: -100px 0;
+    min-width: 500px;
+    margin-top:-120px;
+}
+	nav ul {
+    background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+	nav ul li {
+    display: inline-block;
+}
+	 a {
+    padding: 10px; 
+    color: black;
+    font-size: 18px;
+    font-family: Arial;
+    text-decoration: none;
+    display: block;
+}
+	.img{
+		height: 100px;
+		width: 100px;
+		border-radius: 100px;
+	}
+	.l{
+		float: right;
+	}
+	table{
+		width: 100%;
+		background-color: lightgrey;
+
+	}
+	.Timetable{
+		height: 300px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	.dropdown {
+  position: relative;
+  display: inline-block;
+  left: 400px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f2f2f2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,1);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.mess{
+     max-width: 350px;
+     height: 290px;
+     position: relative;
+     color: black;
+     font-family: Arial;
+     top: 10px;
+}
+.rms{
+	position: relative;
+	left: 720px;
+	top: -300px;
+	background-color: lightgrey;
+	max-width: 780px;
+	min-height: 290px;
+}
+h2{
+	background-color: skyblue;
+	height: 40px;
+	padding-top: 20px;
+}
+input{
+	
+	margin-right: 10px;
+}
+form{
+	padding: 0px 50px;
+}
+select{
+	height: 40px;
+}
+textarea{
+	margin-top: -40px;
+	margin-left: 200px;
+	width: 500px;
+	height: 60px;
+}
+.h{
+	float: left;
+	width: 22%;
+	margin-top: -560px;
+	margin-left: 10px;
+	background-color: lightgrey;
+	min-height: 260px;
+}
+.c{
+	background-color: skyblue;
+	height: 40px;
+	padding-top: 20px;
+}
+</style>
+</head>
+<body>
+	<div class="news">
+	<marquee>COLLEGE IS SHUTDOWN UPTO 14th APRIL.                SO, BE SAFE AND STAY SAFE AT HOME.                    LET'S BREAK THE CHAIN AND FIGHT AGAINST COVID-19</marquee>
+	</div>
+	<nav>
+    <ul>
+    	<li><img src="logo.png" height="30px" width="100px"></li>
+    	<li class="dropdown"><a href="javascript:void(0)">UMS NAVIGATION</a>
+    <div class="dropdown-content">
+      <a href="timetable.html">TIME TABLE</a>
+      <a href="exams available.html">EXAMINATION SEATING</a>
+      <a href="#"></a>
+    </div></li>
+        <li class="l"><a href="logout.html">LOGOUT</a></li>
+        <li class="l"><a href="home.html">HOME</a></li>
+    </ul>
+</nav>
+	
+	<div class="coloumn menu">
+	<ul>
+		<center><img src="alone.png" class="img"></center>
+	<li>NAME - Khaja Sadiq<hr/></li>
+	<li>ROLL NO- RK19KK25<hr/></li>
+	<li>PROGRAM- P132-h B.Tech<hr/></li>
+	<li>ACCOMADATION- BH-8 Room no: 606</li>
+	<li></li>
+	</ul>
+	</div>
+	<div class="Timetable">
+		<a href=""><h4>TIMETABLE</h4></a>
+		<table border="1" cellpadding="10px" cellspacing="10px">
+			<tr bgcolor="blue">
+			<th>TIME</th>
+			<th>CLASS</th>
+			<th>ROOM NO</th>
+			</tr>
+			<tr>
+				<td>9-10am</td>
+				<td>CSE-326</td>
+				<td>37-808</td>
+			</tr>
+			<tr>
+				<td>10-11am</td>
+				<td>CSE-326</td>
+				<td>37-808</td>
+			</tr>
+			<tr>
+				<td>11-12am</td>
+				<td>ECE-132</td>
+				<td>34-410</td>
+			</tr>
+			<tr>
+				<td>1-2pm</td>
+				<td>CSE-106</td>
+				<td>33-304</td>
+			</tr>
+			<tr>
+				<td>2-3pm</td>
+				<td>CSE-106</td>
+				<td>33-304</td>
+			</tr>
+			<tr>
+				<td>3-4pm</td>
+				<td>CSE-202</td>
+				<td>37-802</td>
+			</tr>
+			<tr>
+				<td>3-4pm</td>
+				<td>CSE-202</td>
+				<td>37-802</td>
+			</tr>
+		</table>
+	</div>
+	<div>
+		<table class="mess">
+			<tr bgcolor="skyblue" height="60px">
+				<th><h3>MY MESSAGES</h3></th>
+			</tr>
+			<tr>
+				<td>Dear students, all of you be safe in your houses donot come out of the houses. Please put your masks and wash your hands properly and thorouly using sanitiazer.Have fun but donot disturb others. Complete your assignments and be regular to online classes.</td>
+			</tr>
+			<tr>
+				<td>by Saurav sir
+				</td>
+			</tr>
+			</table>
+	</div>
+	<div class="rms">
+		<center><h2>RMS</h2></center>
+		<form>
+			<h4>Select the type of RMS</h4>
+			<center><input type="radio" name="k">Request&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;           
+			<input type="radio" name="k">Suggestion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="k">Enquiry&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="radio" name="k">Complaint</center>
+			<pre><h3>Select on which issue to be noted              Write  about the isssue</h3></pre>
+			<select>
+				<option>Select</option>
+				<option>Residential issues</option>
+				<option>Vendor services</option>
+				<option>Academical</option>
+				<option>Administration</option>
+			</select>
+			<textarea maxlength="200"></textarea>
+			<center><input type="submit" onclick="alert('SUCCESFULLY SUBMITTED')"></center>
+		</form>
+	</div>
+	<div class="h">
+		<center><h3 class="c">HEALTH TIPS</h3></center>
+		<ul>
+			<li>BE safe and Healthy.</li>
+			<li>STAY home</li>
+			<li>KEEP a safe distance</li>
+			<li>WASH hands often</li>
+			<li>COVER your cough</li>
+			<li>SICK? Call the helpline</li>
+		</ul>
+	</div>
+	<div class="pagefooter">
+	<center><h6>copyrights @ 2020</h6></center>
+</div>
+</body>
+</html>

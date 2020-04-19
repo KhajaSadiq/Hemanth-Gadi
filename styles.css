@@ -1,0 +1,66 @@
+.pageheader{
+			position: fixed top;
+			top: 0px;
+			clear: both;
+			background-color: skyblue;
+			color: white;
+			padding: 20px;
+			 background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+			}
+.pagefooter{
+			clear: both;
+			position:fixed bottom;
+			background-color: black;
+			color: black;
+			font-size: 18px;
+			padding-left: 30px;
+			padding-top: 15px;
+			height:50px;
+			 background: linear-gradient(90deg, 
+     rgba(255, 255, 255, 0) 0%, 
+     rgba(255, 255, 255, 0.2) 25%, 
+     rgba(255, 255, 255, 0.2) 75%, 
+     rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+     inset 0 0 1px rgba(255, 255, 255, 0.6);
+			}
+.coloumn {
+		float: left;
+	}
+.menu{
+		width: 22%;
+		padding: 10px;
+
+	}
+.content {
+		width: 75%;
+	}
+.menu ul {
+		list-style type: none;
+		margin: 0;
+		padding:0;
+
+	}
+.menu li {
+		padding: 10px;
+		background-color: blue;
+		color: aqua;
+		text-decoration: bold;
+		text-align: center;
+	}
+.news {
+		
+		background-color: orange;
+		text-align: center;
+		top: 20px;
+		margin: 0px 0px 10%;
+		height: 20px;
+		width: 100%;
+		border:2px green;
+	}
